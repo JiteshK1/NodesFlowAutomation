@@ -8,7 +8,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://nodesflowautomation.onrender.com" ]
+    "https://nodesflowautomation-1.onrender.com" ]
 
 app.add_middleware(
     CORSMiddleware,
